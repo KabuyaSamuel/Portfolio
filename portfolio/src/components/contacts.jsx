@@ -1,7 +1,7 @@
 
 const Contacts = () => {
   return (
-    <section id="contact" className="relative z-10 bg-gradient-to-b from-black via-black/80 to-black pt-32 backdrop-blur-3xl lg:pb-32 lg:pt-0">
+    <section id="Contact" className="relative z-10 lg:pb-32 lg:pt-0">
       <div className="mx-auto max-w-7xl px-6 lg:px-12 xl:px-6 2xl:px-0">
         <div className="flex flex-wrap items-center gap-6">
           <h2 className="text-7xl font-bold text-fuchsia-500 xl:text-8xl">Lets work together</h2>
