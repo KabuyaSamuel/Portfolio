@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import img from '../assets/farmshare.png';
-import img2 from '../assets/lorem.jpg';
-import img3 from '../assets/lorem2.jpg';
+import img2 from '../assets/zulip2.png';
+import img3 from '../assets/lorem.jpg';
 
 const projectsData = [
   {
@@ -11,6 +11,22 @@ const projectsData = [
     sourceCodeLink: 'https://github.com/KabuyaSamuel/Farm-Flow',
     date: '04/2023',
   },
+ 
+  {
+    imgSrc: img2,
+    name: 'Lorem Ipsum',
+    previewLink: '/pages/project',
+    sourceCodeLink: 'https://github.com/KabuyaSamuel/',
+    date: '01/2024',
+  },
+
+  {
+    imgSrc: img3,
+    name: 'Lorem Ipsum',
+    previewLink: '/pages/project',
+    sourceCodeLink: 'https://github.com/KabuyaSamuel',
+    date: '01/2024',
+  },
   {
     imgSrc: img,
     name: 'Farm Share',
@@ -18,20 +34,7 @@ const projectsData = [
     sourceCodeLink: 'https://github.com/KabuyaSamuel/Farm-Flow',
     date: '04/2023',
   },
-  {
-    imgSrc: img2,
-    name: 'Lorem Ipsum',
-    previewLink: '/pages/project',
-    sourceCodeLink: 'https://github.com/KabuyaSamuel',
-    date: '01/2024',
-  },
-  {
-    imgSrc: img3,
-    name: 'Lorem Ipsum',
-    previewLink: '/pages/project',
-    sourceCodeLink: 'https://github.com/KabuyaSamuel/',
-    date: '01/2024',
-  },
+  
 ];
 
 const Projects = () => {
@@ -94,3 +97,4 @@ const Projects = () => {
 };
 
 export default Projects;
+

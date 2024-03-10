@@ -1,6 +1,6 @@
 const Services = () => {
     return (
-      <div data-aos="fade-up" id="Services" className="h-full sm:container mx-auto flex flex-col justify-center items-center">
+      <div data-aos="fade-up" id="Services" className="h-full sm:container mx-auto flex flex-col justify-center items-center p-5">
         <h2 data-aos="fade-up" className="text-center text-4xl font-bold pt-10 sm:pt-0 pb-10 uppercase text-fuchsia-500">Services</h2>
         <div className="sm:grid grid-cols-2 gap-10">
           <div data-aos="fade-right" className="sm:p-10 p-5 bg-gray-50 sm:me-5 mb-10 rounded-md hover:shadow-md">
