@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Experience = () => {
   return (
     <section id="experience" className="py-20 bg-gray-100 dark:bg-gray-800">
@@ -11,7 +9,7 @@ const Experience = () => {
             <h3 className="text-xl md:text-2xl font-bold mb-2">Software Engineer</h3>
             <p className="text-gray-700 dark:text-gray-300 mb-2">Google - Mountain View, CA</p>
             <p className="text-gray-700 dark:text-gray-300 mb-6">2022 - Present</p>
-            <p className="text-gray-700 dark:text-gray-300">Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization.</p>
+            <p className="text-gray-700 dark:text-gray-300">Worked on a team responsible for developing new features for  search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization.</p>
           </div>
           {/* Experience Item 2 (right) */}
           <div className="max-w-lg w-full bg-white dark:bg-gray-900 shadow-lg rounded-lg p-8 order-2 md:order-1">
