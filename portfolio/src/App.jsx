@@ -11,7 +11,8 @@ import Nav from "./components/nav";
 import Services from "./components/services";
 import Projects from "./components/projects";
 import Contacts from "./components/contacts"
-import Experience from "./components/experience"
+// import Experience from "./components/experience"
+import Footer from "./components/footer"
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       <Services></Services>
       <Projects></Projects>
       <Contacts></Contacts>
-      < Experience></Experience>
+      {/* < Experience></Experience> */}
+      <Footer></Footer>
       </div>
     </>
   );
