@@ -31,21 +31,21 @@ const Footer = () => {
                     </div>
 
                     <div>
-                        <h2 className="text-[22px] font-semibold text-fuchsia-500 py-2 uppercase">Creativity</h2>
+                        <h2 className="text-[22px] font-semibold text-fuchsia-500 py-2 uppercase">Hobbies</h2>
                         <ul className="my-4 list-none">
-                            <li>Guidelines & Ideas</li>
-                            <li>Tips & Tricks</li>
-                            <li>Photography</li>
+                            <li>Watching Hacking Documentaries</li>
+                            <li>Listening to tech talks</li>
+                            <li>Listening to cybersecurity stories</li>
                         </ul>
                     </div>
 
                     <div>
                         <h2 className="text-[22px] font-semibold text-fuchsia-500 py-2 uppercase">Contact</h2>
-                        <p className="text-[16px] my-4">Email: youremail.gmail.com</p>
-                        <p className="text-[16px] my-4">Phone: +1 113-456-7890 </p>
+                        <p className="text-[16px] my-4">Email: samuelkabuya14@gmail.com</p>
+                        <p className="text-[16px] my-4">Phone: +254-748-204-833 </p>
                         <div className="flex space-x-4">
-                            <a className="text-white hover:text-fuchsia-500" href="#"><FaGithub /></a>
-                            <a className="text-white hover:text-fuchsia-500" href="#"><FaLinkedinIn /></a>
+                            <a className="text-white hover:text-fuchsia-500" href="https://github.com/KabuyaSamuel"><FaGithub /></a>
+                            <a className="text-white hover:text-fuchsia-500" href="https://www.linkedin.com/in/samuelkabuya/"><FaLinkedinIn /></a>
                             <a className="text-white hover:text-fuchsia-500" href="#"><FaTwitter /></a>
                             <a className="text-white hover:text-fuchsia-500" href="#"><FaInstagram /></a>
                         </div>
@@ -54,6 +54,8 @@ const Footer = () => {
 
                 {/* Copyright */}
                 <h6 className="text-center absolute bottom-4 left-1/2 transform -translate-x-1/2 z-10">&copy; KingSam {Year}</h6>
+
+
             </div>
         </footer>
     );
