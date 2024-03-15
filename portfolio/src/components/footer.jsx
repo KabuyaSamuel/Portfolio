@@ -1,4 +1,4 @@
-import { FaGithub, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaMedium, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
     const Year = new Date().getFullYear();
@@ -14,7 +14,7 @@ const Footer = () => {
                 {/* Footer content */}
                 <div className="grid lg:grid-cols-4 gap-20 sm:grid-cols-1 p-20 relative z-10">
                     <div className="flex flex-col gap-5">
-                        <h2 className="text-3xl text-fuchsia-500">KingSam</h2>
+                        <h2 className="text-3xl text-fuchsia-500">☽kͥabͣuͫℽa☾ ҉  </h2>
                         <p>
                             An Automation Assistant helping businesses optimize and automate their processes to increase efficiency and productivity.
                         </p>
@@ -44,16 +44,16 @@ const Footer = () => {
                         <p className="text-[16px] my-4">Email: samuelkabuya14@gmail.com</p>
                         <p className="text-[16px] my-4">Phone: +254-748-204-833 </p>
                         <div className="flex space-x-4">
-                            <a className="text-white hover:text-fuchsia-500" href="https://github.com/KabuyaSamuel"><FaGithub /></a>
-                            <a className="text-white hover:text-fuchsia-500" href="https://www.linkedin.com/in/samuelkabuya/"><FaLinkedinIn /></a>
+                            <a className="text-white hover:text-fuchsia-500" href="https://github.com/KabuyaSamuel" target='_blank' rel='noreferrer'><FaGithub /></a>
+                            <a className="text-white hover:text-fuchsia-500" href="https://www.linkedin.com/in/samuelkabuya/" target='_blank' rel='noreferrer'><FaLinkedinIn /></a>
                             <a className="text-white hover:text-fuchsia-500" href="#"><FaTwitter /></a>
-                            <a className="text-white hover:text-fuchsia-500" href="#"><FaInstagram /></a>
+                            <a className="text-white hover:text-fuchsia-500" href="https://medium.com/@samuelkabuya" target='_blank' rel='noreferrer'><FaMedium /></a>
                         </div>
                     </div>
                 </div>
 
                 {/* Copyright */}
-                <h6 className="text-center absolute bottom-4 left-1/2 transform -translate-x-1/2 z-10">&copy; KingSam {Year}</h6>
+                <h6 className="text-center absolute bottom-4 left-1/2 transform -translate-x-1/2 z-10">&copy; Samuel Kabuya {Year}</h6>
 
 
             </div>
