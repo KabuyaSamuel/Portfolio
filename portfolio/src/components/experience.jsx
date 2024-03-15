@@ -2,38 +2,34 @@ import React from 'react';
 
 const Experience = () => {
   return (
-    <div className="my-64">
-      <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">
-        Experience
-      </h2>
-      <div className="relative w-[75%] mx-auto lg:w-[90%] md:w-full">
-        <div className="absolute left-9 top-0 w-[4px] md:w-[2px] md:left-[30px] xs:left-[20px] h-full bg-dark origin-top dark:bg-primaryDark dark:shadow-3xl" style={{ transform: 'scaleY(0.290164) translateZ(0px)' }}></div>
-        <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
-          <li className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-start justify-between md:w-[80%]">
-            <figure className="stroke-dark absolute left-0 dark:stroke-light">
-              <svg className="-rotate-90 md:w-[60px] md:h-[60px] xs:w-[40px] xs:h-[40px]" width="75" height="75" viewBox="0 0 100 100">
-                <circle cx="75" cy="50" r="20" pathLength="1" className="stroke-primary stroke-1 fill-none dark:stroke-primaryDark"></circle>
-                <circle cx="75" cy="50" r="20" pathLength="1" className="fill-light stroke-[5px] dark:fill-dark" strokeDashoffset="0px" strokeDasharray="0.8640192539109507px 1px"></circle>
-                <circle cx="75" cy="50" r="10" pathLength="1" className="animate-pulse stroke-1 fill-primary dark:fill-primaryDark"></circle>
-              </svg>
-            </figure>
-            <div style={{ transform: 'none' }}>
-              <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">
-                Software Engineer{' '}
-                <a className="capitalize text-primary dark:text-primaryDark" href="https://google.com" target="_blank" rel="noreferrer" >
-                  @Google
-                </a>
-              </h3>
-              <span className="capitalize text-dark/75 font-medium dark:text-light/50 xs:text-sm">2022-Present | Mountain View, CA</span>
-              <p className="font-medium w-full md:text-sm">
-                Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization.
-              </p>
-            </div>
-          </li>
-          {/* Add other experience items similarly */}
-        </ul>
+    <section id="experience" className="py-20 bg-gray-100 dark:bg-gray-800">
+      <div className="container mx-auto">
+        <h2 className="text-4xl md:text-6xl font-bold text-center mb-16">Experience</h2>
+        <div className="flex flex-col items-center space-y-16 md:space-y-0 md:flex-row md:space-x-16">
+          {/* Experience Item 1 (left) */}
+          <div className="max-w-lg w-full bg-white dark:bg-gray-900 shadow-lg rounded-lg p-8">
+            <h3 className="text-xl md:text-2xl font-bold mb-2">Software Engineer</h3>
+            <p className="text-gray-700 dark:text-gray-300 mb-2">Google - Mountain View, CA</p>
+            <p className="text-gray-700 dark:text-gray-300 mb-6">2022 - Present</p>
+            <p className="text-gray-700 dark:text-gray-300">Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization.</p>
+          </div>
+          {/* Experience Item 2 (right) */}
+          <div className="max-w-lg w-full bg-white dark:bg-gray-900 shadow-lg rounded-lg p-8 order-2 md:order-1">
+            <h3 className="text-xl md:text-2xl font-bold mb-2">UX Designer</h3>
+            <p className="text-gray-700 dark:text-gray-300 mb-2">Apple Inc. - Cupertino, CA</p>
+            <p className="text-gray-700 dark:text-gray-300 mb-6">2019 - 2021</p>
+            <p className="text-gray-700 dark:text-gray-300">Designed user interfaces for various Apple products, focusing on enhancing user experience and usability. Collaborated with cross-functional teams to deliver intuitive and visually appealing designs.</p>
+          </div>
+          {/* Experience Item 3 (left) */}
+          <div className="max-w-lg w-full bg-white dark:bg-gray-900 shadow-lg rounded-lg p-8">
+            <h3 className="text-xl md:text-2xl font-bold mb-2">Web Developer</h3>
+            <p className="text-gray-700 dark:text-gray-300 mb-2">Microsoft Corporation - Redmond, WA</p>
+            <p className="text-gray-700 dark:text-gray-300 mb-6">2017 - 2019</p>
+            <p className="text-gray-700 dark:text-gray-300">Developed and maintained web applications using modern web technologies. Collaborated with product managers and designers to deliver high-quality software solutions.</p>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

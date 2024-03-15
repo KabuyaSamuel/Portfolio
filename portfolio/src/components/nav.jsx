@@ -55,9 +55,9 @@ const Nav = () => {
               <Link spy={true} smooth={true} to="Projects">
                 <li className="hover:textfuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Projects</li>
               </Link>
-              <Link spy={true} smooth={true} to="Experience">
+              {/* <Link spy={true} smooth={true} to="Experience">
                 <li className="hover:textfuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Experience</li>
-              </Link>
+              </Link> */}
               <Link spy={true} smooth={true} to="Contact">
                 <li className="hover:textfuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Contact</li>
               </Link>
