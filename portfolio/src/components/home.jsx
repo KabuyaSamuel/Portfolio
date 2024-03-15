@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { AiFillGithub } from 'react-icons/ai';
-import { FaInstagram, FaLinkedinIn, FaMedium } from 'react-icons/fa';
+import { FaTwitter, FaLinkedinIn, FaMedium } from 'react-icons/fa';
 import img from '../assets/cropped.jpg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -26,17 +26,17 @@ const Home = () => {
         <div className="flex mt-8 gap-2">
           <div className="flex items-center justify-center">
             <div className='flex space-x-2'>
-              <a href="https://github.com/" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2" target='_blank' rel='noopener noreferrer'>
+              <a href="https://www.linkedin.com/in/samuelkabuya/" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2" target='_blank' rel='noopener noreferrer'>
                 <FaLinkedinIn className="text-[28px]" />
               </a>
-              <a href="https://github.com/" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2" target='_blank' rel='noopener noreferrer'>
+              <a href="https://github.com/KabuyaSamuel" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2" target='_blank' rel='noopener noreferrer'>
                 <AiFillGithub className="text-[28px]" />
               </a>
-              <a href="https://github.com/" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2" target='_blank' rel='noopener noreferrer'>
+              <a href="https://medium.com/@samuelkabuya" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2" target='_blank' rel='noopener noreferrer'>
                 <FaMedium className="text-[28px]" />
               </a>
               <a href="https://github.com/" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2" target='_blank' rel='noopener noreferrer'>
-                <FaInstagram className="text-[28px]" />
+                <FaTwitter className="text-[28px]" />
               </a>
             </div>
           </div>
