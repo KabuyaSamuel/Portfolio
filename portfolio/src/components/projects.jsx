@@ -52,7 +52,7 @@ const Projects = () => {
 
   return (
     <div id="Projects" className="sm:container mx-auto flex flex-col items-center justify-center p-5">
-      <h1 data-aos="fade-right" className="text-[52px] font-semibold mb-20 leading-normal uppercase text-fuchsia-500">
+      <h1 data-aos="fade-right" className="text-[50px] font-semibold mb-20 leading-normal uppercase text-fuchsia-500">
         Projects
       </h1>
       <div className="grid lg:grid-cols-2 gap-10">
