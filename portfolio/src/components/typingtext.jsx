@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 const TypingText = ({ texts }) => {
   const [displayText, setDisplayText] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
+  const fixedHeight = "5rem"; // Set a fixed height here
 
   useEffect(() => {
     const intervalId = setInterval(() => {
@@ -17,12 +18,16 @@ const TypingText = ({ texts }) => {
           return currentText.substring(0, prevText.length + 1);
         });
       }
-    }, 100); // Adjust typing speed here (milliseconds)
+    }, 150); // Adjust typing speed here (milliseconds)
     
     return () => clearInterval(intervalId);
   }, [texts, currentIndex]);
 
-  return <h5 className="text-[30px] font-semibold mb-8 leading-normal">{displayText}</h5>;
+  return (
+    <div style={{ height: fixedHeight }}>
+      <h5 className="text-[30px] font-semibold mb-8 leading-normal">{displayText}</h5>
+    </div>
+  );
 };
 
 TypingText.propTypes = {
